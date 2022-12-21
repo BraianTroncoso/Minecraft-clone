@@ -1,4 +1,5 @@
-/* import { useStore } from '../hooks/useStore.js'
+/* eslint-disable no-unused-vars */
+import { useStore } from '../hooks/useStore.js'
 import * as images from '../images/images.js'
 import { useKeyboard } from '../hooks/useKeyboard.js'
 import { useEffect, useState } from 'react'
@@ -65,4 +66,3 @@ export const TextureSelector = () => {
     </div>
   )
 }
- */

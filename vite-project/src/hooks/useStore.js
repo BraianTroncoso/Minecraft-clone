@@ -1,4 +1,4 @@
-/* import { nanoid } from 'nanoid'
+import { nanoid } from 'nanoid'
 import create from 'zustand'
 
 export const useStore = create(set => ({
@@ -32,4 +32,3 @@ export const useStore = create(set => ({
   saveWorld: () => {},
   resetWorld: () => {}
 }))
- */
