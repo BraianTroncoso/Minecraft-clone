@@ -1,4 +1,4 @@
-/* import { useStore } from '../hooks/useStore.js'
+import { useStore } from '../hooks/useStore.js'
 import { useBox } from '@react-three/cannon'
 import { useState } from 'react'
 import * as textures from '../images/textures.js'
@@ -43,4 +43,3 @@ export const Cube = ({ id, position, texture }) => {
     </mesh>
   )
 }
- */
